@@ -1,0 +1,6 @@
+res://Scripts/Network/NetworkClient.cs
+res://Scripts/Game/GameManager.cs
+res://Scripts/UI/LoginUI.cs
+res://Scripts/UI/GameUI.cs
+res://Scripts/Game/PlayerController.cs
+res://Scripts/Network/Protocol.cs

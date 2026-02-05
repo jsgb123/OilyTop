@@ -1,0 +1,17 @@
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.csproj.AssemblyReference.cache
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.GeneratedMSBuildEditorConfig.editorconfig
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.AssemblyInfoInputs.cache
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.AssemblyInfo.cs
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.csproj.CoreCompileInputs.cache
+F:\oilytop\client\.godot\mono\temp\bin\Debug\client.deps.json
+F:\oilytop\client\.godot\mono\temp\bin\Debug\client.runtimeconfig.json
+F:\oilytop\client\.godot\mono\temp\bin\Debug\client.dll
+F:\oilytop\client\.godot\mono\temp\bin\Debug\client.pdb
+F:\oilytop\client\.godot\mono\temp\bin\Debug\GodotSharp.dll
+F:\oilytop\client\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.csproj.CopyComplete
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.dll
+F:\oilytop\client\.godot\mono\temp\obj\Debug\refint\client.dll
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.pdb
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.genruntimeconfig.cache
+F:\oilytop\client\.godot\mono\temp\obj\Debug\ref\client.dll

@@ -1,0 +1,50 @@
+[gd_scene load_steps=3 format=3 uid="uid://gowej168dacy"]
+
+[ext_resource type="Script" uid="uid://bl7o1bm8851vn" path="res://Scripts/UI/GameUI.cs" id="1"]
+[ext_resource type="Script" uid="uid://dcj7rinis8s4p" path="res://Scripts/Game/PlayerController.cs" id="2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="GameUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameUI"]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="PlayerInfoLabel" type="Label" parent="GameUI/HBoxContainer"]
+layout_mode = 2
+text = "玩家信息"
+
+[node name="ServerStatusLabel" type="Label" parent="GameUI/HBoxContainer"]
+layout_mode = 2
+text = "状态"
+
+[node name="PlayerCountLabel" type="Label" parent="GameUI/HBoxContainer"]
+layout_mode = 2
+text = "玩家: 0"
+
+[node name="FPSLabel" type="Label" parent="GameUI/HBoxContainer"]
+layout_mode = 2
+text = "FPS: 0"
+
+[node name="DisconnectButton" type="Button" parent="GameUI/HBoxContainer"]
+layout_mode = 2
+text = "断开连接"
+
+[node name="HelpText" type="Label" parent="GameUI"]
+layout_mode = 0
+anchor_bottom = 1.0
+text = "控制说明"
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="LocalPlayer" type="Node2D" parent="World"]
+script = ExtResource("2")
+player_id = 0
+player_name = "本地玩家"
