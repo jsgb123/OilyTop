@@ -20,7 +20,7 @@ public class Database {
     public static Database getInstance() {
         return instance;
     }
-    
+
     public void init() {
         try {
             // H2数据库配置

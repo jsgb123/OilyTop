@@ -15,3 +15,4 @@ F:\oilytop\client\.godot\mono\temp\obj\Debug\refint\client.dll
 F:\oilytop\client\.godot\mono\temp\obj\Debug\client.pdb
 F:\oilytop\client\.godot\mono\temp\obj\Debug\client.genruntimeconfig.cache
 F:\oilytop\client\.godot\mono\temp\obj\Debug\ref\client.dll
+F:\oilytop\client\.godot\mono\temp\obj\Debug\client.sourcelink.json

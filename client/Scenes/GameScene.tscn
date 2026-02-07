@@ -10,6 +10,8 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1")
 
 [node name="HBoxContainer" type="HBoxContainer" parent="GameUI"]
@@ -37,14 +39,8 @@ text = "FPS: 0"
 layout_mode = 2
 text = "断开连接"
 
-[node name="HelpText" type="Label" parent="GameUI"]
-layout_mode = 0
-anchor_bottom = 1.0
-text = "控制说明"
-
 [node name="World" type="Node2D" parent="."]
+position = Vector2(0, -1)
 
 [node name="LocalPlayer" type="Node2D" parent="World"]
 script = ExtResource("2")
-player_id = 0
-player_name = "本地玩家"

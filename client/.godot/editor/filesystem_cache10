@@ -1,6 +1,10 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770274088
+::res://::1770430239
+export_presets.cfg::TextFile::-1::1770389029::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1594368673454429029::1770245904::1770245913::1::::<><><>0<>0<>d4545db88337583e98a030f9464e1976<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://assets/::1770293251
+::res://assets/images/::1770293742
+logo.png::CompressedTexture2D::6011767814914658043::1770293675::1770293742::1::::<><><>0<>0<>ed6cf580cd803a49115eee509dab4d1f<>res://.godot/imported/logo.png-9164f87f81119ac7320e78ed71593bc1.ctex::
 ::res://Scenes/::1770261462
 GameScene.tscn::PackedScene::451377781729294308::1770251294::0::1::::<><><>0<>0<><>::uid://bl7o1bm8851vn::::res://Scripts/UI/GameUI.cs<>uid://dcj7rinis8s4p::::res://Scripts/Game/PlayerController.cs
 LoginScene.tscn::PackedScene::4864181642669727535::1770261462::0::1::::<><><>0<>0<><>::uid://c0aua0w8dt1lk::::res://Scripts/UI/LoginUI.cs<>uid://wylawdfsm2mb::::res://icon.svg
@@ -11,8 +15,8 @@ GameManager.cs::CSharpScript::4937796541174607529::1770254838::0::1::::<>Node<><
 Player.cs::CSharpScript::6113847490339649452::1770247058::0::1::::<><><>0<>0<><>::
 PlayerController.cs::CSharpScript::7320192881064930841::1770254577::0::1::::<>Node2D<><>0<>0<><>::
 ::res://Scripts/Network/::1770246750
-NetworkClient.cs::CSharpScript::8514252871079928674::1770271786::0::1::::<>Node<><>0<>0<><>::
-Protocol.cs::CSharpScript::7072442501809902960::1770251813::0::1::::<><><>0<>0<><>::
+NetworkClient.cs::CSharpScript::8514252871079928674::1770388977::0::1::::<>Node<><>0<>0<><>::
+Protocol.cs::CSharpScript::7072442501809902960::1770278750::0::1::::<><><>0<>0<><>::
 ::res://Scripts/UI/::1770246797
 GameUI.cs::CSharpScript::3225454592987309023::1770247669::0::1::::<>Control<><>0<>0<><>::
-LoginUI.cs::CSharpScript::6528778146765946960::1770261568::0::1::::<>Control<><>0<>0<><>::
+LoginUI.cs::CSharpScript::6528778146765946960::1770338295::0::1::::<>Control<><>0<>0<><>::

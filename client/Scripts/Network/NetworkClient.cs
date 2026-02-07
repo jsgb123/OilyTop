@@ -97,8 +97,12 @@ namespace oily.top.Network
             }
         }
 
+        private int heartbeatCount = 0;
+
         private void SendHeartbeat()
         {
+            heartbeatCount++;
+            GD.Print($"发送心跳次数 #{heartbeatCount}");
             if (IsConnected)
             {
                 var message = new Godot.Collections.Dictionary

@@ -1,3 +1,5 @@
+Label
+TextureRect
 Control
 CollisionShape2D
 CharacterBody2D

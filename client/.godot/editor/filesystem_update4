@@ -1,6 +1,7 @@
-res://Scripts/Network/NetworkClient.cs
+res://Scenes/LoginScene.tscn
 res://Scripts/Game/GameManager.cs
 res://Scripts/UI/LoginUI.cs
+res://Scripts/Network/NetworkClient.cs
 res://Scripts/UI/GameUI.cs
 res://Scripts/Game/PlayerController.cs
-res://Scripts/Network/Protocol.cs
+res://Scenes/GameScene.tscn

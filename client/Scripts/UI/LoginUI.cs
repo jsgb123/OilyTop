@@ -5,6 +5,8 @@ namespace oily.top.UI
 {
     public partial class LoginUI : Control
     {
+        private int loginCount = 0;
+
         [Export]
         private LineEdit serverAddressInput;
 
@@ -135,7 +137,8 @@ namespace oily.top.UI
 
             statusLabel.Text = "正在连接...";
             statusLabel.Modulate = Colors.Yellow;
-
+            loginCount++;
+            GD.Print($"连接尝试次数: {loginCount}");
             // 连接到服务器
             networkClient?.ConnectToServer(serverAddress, playerName);
         }

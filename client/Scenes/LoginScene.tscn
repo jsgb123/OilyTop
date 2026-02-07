@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cbkimjkkrqhnj"]
 
 [ext_resource type="Script" uid="uid://c0aua0w8dt1lk" path="res://Scripts/UI/LoginUI.cs" id="1_asdfg"]
-[ext_resource type="Texture2D" uid="uid://wylawdfsm2mb" path="res://icon.svg" id="2_qwert"]
+[ext_resource type="Texture2D" uid="uid://crwe643x0jptb" path="res://assets/images/logo.png" id="2_jbn7o"]
 
 [node name="LoginScene" type="Control"]
 layout_mode = 3
@@ -13,16 +13,24 @@ grow_vertical = 2
 script = ExtResource("1_asdfg")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 alignment = 1
 
 [node name="Logo" type="TextureRect" parent="VBoxContainer"]
 layout_mode = 2
-texture = ExtResource("2_qwert")
-expand_mode = 1
+texture = ExtResource("2_jbn7o")
 stretch_mode = 3
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "OilyTop"
+horizontal_alignment = 1
 
 [node name="ServerAddressInput" type="LineEdit" parent="VBoxContainer"]
 layout_mode = 2

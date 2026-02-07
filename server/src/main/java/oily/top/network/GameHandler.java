@@ -14,6 +14,7 @@ import oily.top.game.Player;
 import oily.top.game.World;
 
 public class GameHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
+
     private static final Logger logger = LoggerFactory.getLogger(GameHandler.class);
 
     private static final Map<String, Integer> playerSessions = new HashMap<>();
@@ -21,6 +22,7 @@ public class GameHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, WebSocketFrame frame) throws Exception {
+        logger.info("收到 WebSocket 帧: {}", frame.getClass().getSimpleName());
         if (frame instanceof TextWebSocketFrame) {
             String request = ((TextWebSocketFrame) frame).text();
             handleMessage(ctx, request);
@@ -29,6 +31,7 @@ public class GameHandler extends SimpleChannelInboundHandler<WebSocketFrame> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     private void handleMessage(ChannelHandlerContext ctx, String message) {
         try {
             Protocol.Message msg = Protocol.deserialize(message);
